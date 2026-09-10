@@ -1,5 +1,5 @@
 
-def print_pattern(number):
+def print_number2(number):
     pattern = ""
 
     for i in range(number, 0, -1):
@@ -12,7 +12,7 @@ def print_pattern(number):
 
 number = int(input("Enter the number: "))
 
-result = print_pattern(number)
+result = print_number2(number)
 
 print(result)
 
